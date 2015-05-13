@@ -1,0 +1,1 @@
+This directory contains images, videos, css, js, and fonts required for the html and are linked in the index.html files

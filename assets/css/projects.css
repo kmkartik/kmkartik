@@ -1,0 +1,26 @@
+﻿.img-mod{
+	width:100%;
+}
+.modal-dialog {
+	width:75%;
+}
+.tmb-link a{
+	text-align:center; 
+	text-decoration:none;
+	color:#ccc;
+}
+.tmb-link a:hover{
+	text-align:center; 
+	text-decoration:none;
+	color:#666;
+}
+.tmb-link a:active{
+	text-align:center; 
+	text-decoration:none;
+	color:#999;
+}
+.tmb-link a:visited{
+	text-align:center; 
+	text-decoration:none;
+	color:#333;
+}

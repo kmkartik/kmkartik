@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Modal window(video)</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../../assets/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../assets/css/scroll-up-bar.css">
+</head>
+  <body>
+	  <a id="topbar" href="../../index.html#portfolio">Click here to go back to My Portfolio Page...</a>
+	  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title" id="myModalLabel" style="text-align: center;">Crazy monkey</h4>
+          </div>
+          <div class="modal-body">
+            <video style="height:100%; width:100%;" src="../../assets/videos/crazy-monkey.mp4" controls></video>
+			<hr>
+            </div>
+		</div>
+     </div>
+     </div>
+	 <br><br>
+	 <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-12">
+				<h1 class="text-center">How to earn money online?</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-12">
+				<p class="text-center">
+					<a title="Click to proceed!" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Give me all your money</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+	<script src="../../assets/js/bootstrap.js"></script>
+	<script src="../../assets/js/scroll-up-bar.js"></script>
+	<script>
+		$('#topbar').scrollupbar();
+	</script>
+  </body>
+</html>
