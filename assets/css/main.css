@@ -151,12 +151,17 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  height: 0; 
  clear: both;
 }
-.no-list{
+.no-list {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-.break{
+.no-list li p a {
+	text-decoration:none;
+	color:inherit;
+	font-size:1em;
+}
+.break {
   padding-bottom: 1em;
   clear: both;
 }
